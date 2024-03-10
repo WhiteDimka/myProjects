@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\ClientServer">
+      <UniqueIdentifier>{09bdc1a9-a6cb-4191-9773-f31fb2e4ecb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\ClientServer\AudioRecording">
+      <UniqueIdentifier>{0c91d987-a831-4429-956b-43482912d92b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\ClientServer\AudioRecording\ExternalLibs">
+      <UniqueIdentifier>{030411ac-5430-43e1-9da0-8a2947a6c976}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\ClientServer\Codec">
+      <UniqueIdentifier>{387f70d9-0ebb-48ce-b96c-fbb6960bb178}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\ClientServer\Signal_Interference">
+      <UniqueIdentifier>{31a0c89e-4b56-4080-9b52-2ca9f9401c62}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ConsoleClientServer.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ClientServer\Client.cpp">
+      <Filter>Исходные файлы\ClientServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ClientServer\Server.cpp">
+      <Filter>Исходные файлы\ClientServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ClientServer\AudioRecording\AudioRecorder.cpp">
+      <Filter>Исходные файлы\ClientServer\AudioRecording</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ClientServer\Codec\Codec.cpp">
+      <Filter>Исходные файлы\ClientServer\Codec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ClientServer\Signal_Interference\SIgnal_Interference.cpp">
+      <Filter>Исходные файлы\ClientServer\Signal_Interference</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\ClientServer\Client.h">
+      <Filter>Исходные файлы\ClientServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ClientServer\ClientServerConst.h">
+      <Filter>Исходные файлы\ClientServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ClientServer\Server.h">
+      <Filter>Исходные файлы\ClientServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ClientServer\AudioRecording\AudioConst.h">
+      <Filter>Исходные файлы\ClientServer\AudioRecording</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ClientServer\AudioRecording\AudioRecorder.h">
+      <Filter>Исходные файлы\ClientServer\AudioRecording</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ClientServer\AudioRecording\ExternalLibs\AudioFile.h">
+      <Filter>Исходные файлы\ClientServer\AudioRecording\ExternalLibs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ClientServer\Codec\Codec.h">
+      <Filter>Исходные файлы\ClientServer\Codec</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ClientServer\Signal_Interference\Signal_Interference.h">
+      <Filter>Исходные файлы\ClientServer\Signal_Interference</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".clang-format">
+      <Filter>Исходные файлы</Filter>
+    </None>
+  </ItemGroup>
+</Project>

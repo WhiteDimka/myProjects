@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов\ClientServer">
+      <UniqueIdentifier>{5982a3ea-90eb-4134-9b43-7851dd1bd2b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы ресурсов\ClientServer\AudioRecording">
+      <UniqueIdentifier>{8a8df6a8-5463-425f-bd1d-266d76c72e3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы ресурсов\ClientServer\AudioRecording\ExternalLibs">
+      <UniqueIdentifier>{54b05cdc-9d7b-465f-8cbc-48e1311004f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы ресурсов\MicroRecording">
+      <UniqueIdentifier>{ca0e02fb-67ac-4023-b254-b206ff8ff883}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы ресурсов\ClientServer\Codec">
+      <UniqueIdentifier>{e9780912-6ad0-4153-bce2-3608cec1c9c7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MainWindow.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="RecordToFileWindow.cpp">
+      <Filter>Файлы ресурсов</Filter>
+    </ClCompile>
+    <ClCompile Include="CallWindow.cpp">
+      <Filter>Файлы ресурсов</Filter>
+    </ClCompile>
+    <ClCompile Include="FileNameWindowForCalling.cpp">
+      <Filter>Файлы ресурсов</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ClientServer\Client.cpp">
+      <Filter>Файлы ресурсов\ClientServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ClientServer\AudioRecording\AudioRecorder.cpp">
+      <Filter>Файлы ресурсов\ClientServer\AudioRecording</Filter>
+    </ClCompile>
+    <ClCompile Include="MicroRecording.cpp">
+      <Filter>Файлы ресурсов\MicroRecording</Filter>
+    </ClCompile>
+    <ClCompile Include="CallingSendingWindow.cpp">
+      <Filter>Файлы ресурсов</Filter>
+    </ClCompile>
+    <ClCompile Include="FileNameForSendingWindow.cpp">
+      <Filter>Файлы ресурсов</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ClientServer\Codec\Codec.cpp">
+      <Filter>Файлы ресурсов\ClientServer\Codec</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MainWindow.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="RecordToFileWindow.h">
+      <Filter>Файлы ресурсов</Filter>
+    </ClInclude>
+    <ClInclude Include="CallWindow.h">
+      <Filter>Файлы ресурсов</Filter>
+    </ClInclude>
+    <ClInclude Include="FileNameWindowForCalling.h">
+      <Filter>Файлы ресурсов</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ClientServer\Client.h">
+      <Filter>Файлы ресурсов\ClientServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ClientServer\ClientServerConst.h">
+      <Filter>Файлы ресурсов\ClientServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ClientServer\AudioRecording\AudioConst.h">
+      <Filter>Файлы ресурсов\ClientServer\AudioRecording</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ClientServer\AudioRecording\AudioRecorder.h">
+      <Filter>Файлы ресурсов\ClientServer\AudioRecording</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ClientServer\AudioRecording\ExternalLibs\AudioFile.h">
+      <Filter>Файлы ресурсов\ClientServer\AudioRecording\ExternalLibs</Filter>
+    </ClInclude>
+    <ClInclude Include="MicroRecording.h">
+      <Filter>Файлы ресурсов\MicroRecording</Filter>
+    </ClInclude>
+    <ClInclude Include="CallingSendingWindow.h">
+      <Filter>Файлы ресурсов</Filter>
+    </ClInclude>
+    <ClInclude Include="FileNameForSendingWindow.h">
+      <Filter>Файлы ресурсов</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ClientServer\Codec\Codec.h">
+      <Filter>Файлы ресурсов\ClientServer\Codec</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
